@@ -1,0 +1,21 @@
+配置git用户名和邮箱：
+
+$git config --global user.name ""
+$git config --global user.email ""
+
+查看配置是否成功：
+
+$git config --list
+
+初始化版本库：
+
+git init
+
+添加文件到版本库：
+
+git add
+git commit
+
+查看仓库状态：
+
+git status

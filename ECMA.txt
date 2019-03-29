@@ -1,0 +1,37 @@
+对象分为三种：
+1.本地对象：
+Object
+Function
+Array： concat() 方法用于连接两个或多个数组。
+            join() 方法用于把数组中的所有元素放入一个字符串。
+            pop() 方法用于删除并返回数组的最后一个元素。
+            push() 方法可向数组的末尾添加一个或多个元素，并返回新的长度。
+            reverse() 方法用于颠倒数组中元素的顺序。
+            shift() 方法用于把数组的第一个元素从其中删除，并返回第一个元素的值。
+            slice() 方法可从已有的数组中返回选定的元素。
+            sort() 方法用于对数组的元素进行排序。若 a 小于 b，在排序后的数组中 a 应该出现在 b 之前，则返回一个小于 0 的值。若 a 等于 b，则返回 0。若 a 大于 b，则返回一个大于 0 的值。
+            splice() 方法向/从数组中添加/删除项目，然后返回被删除的项目。
+            toString() 方法可把数组转换为字符串，并返回结果。
+            unshift() 方法可向数组的开头添加一个或更多元素，并返回新的长度。
+String：String 对象的 valueOf() 方法和 toString() 方法都会返回 String 类型的原始值，
+            charAt() 方法返回的是包含指定位置处的字符的字符串：
+            concat() 方法用于把一个或多个字符串连接到 String 对象的原始值上。该方法返回的是 String 原始值，保持原始的 String 对象不变
+            indexOf() 方法是从字符串的开头（位置 0）开始检索字符串，而 lastIndexOf() 方法则是从字符串的结尾开始检索子串
+            slice() 和 substring()。这两种方法返回的都是要处理的字符串的子串，都接受一个或两个参数。第一个参数是要获取的子串的起始位置，第二个参数（如果使用的话）是要获取子串终止前的位置（也就是说，获取终止位置处的字符不包括在返回的值内）。如果省略第二个参数，终止位就默认为字符串的长度。对于负数参数，slice() 方法会用字符串的长度加上参数，substring() 方法则将其作为 0 处理（也就是说将忽略它）
+            小写转换。有 4 种方法用于执行大小写转换，即toLowerCase()，toLocaleLowerCase()，toUpperCase()，toLocaleUpperCase()
+            
+Boolean
+Number：var numberObject=new Number(68); numberObject.toFixed(2)=>输出的是68.00（toFixed超过20位小数会报错）
+                toExponential() ,toPrecision()都是Number的小数位数方法，
+                toFixed()、toExponential() 和 toPrecision() 方法都会进行舍入操作，以便用正确的小数位数正确地表示一个数
+Date
+RegExp
+Error
+EvalError
+RangeError
+ReferenceError
+SyntaxError
+TypeError
+URIError
+2.内置对象
+3.宿主对象

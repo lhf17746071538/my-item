@@ -1,0 +1,19 @@
+4.下拉列表的值可以存在serachname里面，serachname访问的是window.enumData的数据，也可以放在data[[{}]]中，这个方法是用于拿到后台给的数据（toajax方法）
+BEJ001_13
+
+1.当组件在客户端被实例化，第一次被创建时，以下方法依次被调用：
+
+1、getDefaultProps
+2、getInitialState
+3、componentWillMount
+4、render
+5、componentDidMount
+
+2.当组件在服务端被实例化，首次被创建时，以下方法依次被调用：
+
+1、getDefaultProps
+2、getInitialState
+3、componentWillMount
+4、render
+
+componentDidMount 不会在服务端被渲染的过程中调用。
